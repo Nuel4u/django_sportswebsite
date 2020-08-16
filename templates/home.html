@@ -1,0 +1,496 @@
+
+    {% extends 'base.html' %}
+    {% load static %}
+    
+    {% block content %}
+<!--<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger web</title>-->
+    <!--Font Awesome icons-->
+   <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/all.css' %}">-->
+    <!--Owl Carousel-->
+    <!--<link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.theme.default.min.css' %}"> --?
+    -->
+
+     <!--AOS Animation-->
+     <!--<link rel="stylesheet" type="text/css" href="{% static 'css/aos.css' %}">-->
+    <!--Normal or custom css-->
+    <!--<link rel="stylesheet" type="text/css"  href="{% static 'style/style.css' %} ">
+  
+</head>
+<body>-->
+
+
+   <!-- <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">SportsWeb</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars">
+
+                    </i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/about/">About Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/mission/">Mission</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/training/">Training</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/registration/">Registration</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="/contact/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+        </div>
+    </nav> -->
+    
+<!--Main site section-->
+<main>
+    <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+            <h3>The Sport Arena</h3>
+            <h1>A Place To Train For The Future</h1>
+           <!-- <h3>Travels & Tours</h3>
+            <h1>Amazing Places on earth</h1>-->
+            <button class="btn">Explore</button>
+        </div>
+
+    </section>
+    <!-- Blog Carousel-->
+    <section>
+        <div class="blog">
+            <div class="container">
+                <div class="owl-carousel owl-theme blog-post">
+                    <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <img src="{% static 'img/mo.jpg' %} " alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Fashion</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                        <img src="{% static 'img/cr.jpg' %}" alt="blog3">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Fashion</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                        <img src="{% static 'img/ms.jpg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Fashion</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-down" data-aos-delay="200">
+                        <img src="{% static 'img/ny.jpeg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Yet to know what add</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <img src="{% static 'img/mb.jpg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Yet to know what add</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <img src="{% static 'img/rs.jpg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Yet to know what add</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <img src="{% static 'img/li.jpg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Yet to know what add</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                    <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <img src="{% static 'img/gb.jpg' %}" alt="">
+                        <div class="blog-title">
+                            <h3>Exceptional Talent Hunt !</h3>
+                            <button class="btn btn-blog">Yet to know what add</button>
+                            <span>2 minutes</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+            
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!--Site Contents-->
+    <section class="container">
+        <div class="site-content">
+            <div class="post">
+                <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="post-image">
+                        <div>
+                            <img src="{% static 'img/co.jpg' %}" class="img" alt="blog1">
+                        </div>
+                            
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 14</i></span>
+                                <span><i>2 comments</i></span>
+                            </div>
+                    </div>
+                            
+                            <div class="post-title">
+                                <a href="#">Why you should come to us</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        
+                    </div>
+                    <hr>
+                    
+                    
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200"> 
+                        <div class="post-image">
+                            <div>
+                                <img src="{% static 'img/oi.jpg' %}" class="img" alt="blog1">
+                            </div>
+                                
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                    <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 31</i></span>
+                                    <span><i>15 comments</i></span>
+                                </div>
+                        </div>
+                                
+                                <div class="post-title">
+                                    <a href="#">The Story Of Ighalo</a>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                    <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            
+                        </div>
+                        <hr>
+
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="{% static 'img/mb.jpg' %}" class="img" alt="blog1">
+                            </div>
+                                
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                    <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                    <span><i>5 comments</i></span>
+                                </div>
+                        </div>
+                                
+                                <div class="post-title">
+                                    <a href="#">Our Players In Action</a>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                    <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            
+                        </div>
+                        <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="{% static 'img/gb.jpg' %}" class="img" alt="blog1">
+                            </div>
+                                
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                    <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 29</i></span>
+                                    <span><i>10 comments</i></span>
+                                </div>
+                        </div>
+                                
+                                <div class="post-title">
+                                    <a href="#">Dont You Wish To Be Like This ?</a>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                    <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            
+                        </div>
+                        <div class="pagination flex-row">
+                            <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            <a href="#" class="page">1</a>
+                            <a href="#" class="page">2</a>
+                            <a href="#" class="page">3</a>
+                            <a href="#" class="page">4</a>
+                            <a href="#" class="page">5</a>
+                            <a href="#"><i class="fas fa-chevron-right"></i></a>
+                        </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                    </div>
+                   <ul class="category-list">
+                       <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                           <a href="#">Software</a>
+                           <span>(08)</span>
+                       </li>
+                       <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                        <a href="#">Technology</a>
+                        <span>(09)</span>
+                    </li>
+                    <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                        <a href="#">Lifestyle</a>
+                        <span>(15)</span>
+                    </li>
+                    <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                        <a href="#">Shopping</a>
+                        <span>(05)</span>
+                    </li>
+                    <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                        <a href="#">Food</a>
+                        <span>(25)</span>
+                    </li>
+                   </ul>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="{% static 'img/cr.jpg' %}" class="img" alt="blog1">
+                                </div>
+                                    
+                                    <div class="post-info flex-row">
+                                        <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                        <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                        <span><i>5 comments</i></span>
+                                    </div>
+                            </div>
+                                    
+                                    <div class="post-title">
+                                        <a href="#">New data recording system to better analysis</a>
+                                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                        <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+                                    </div>
+                                
+                            </div>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="{% static 'img/ms.jpg' %}" class="img" alt="blog1">
+                                    </div>
+                                        
+                                        <div class="post-info flex-row">
+                                            <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                            <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                            <span><i>5 comments</i></span>
+                                        </div>
+                                </div>
+                                        
+                                        <div class="post-title">
+                                            <a href="#">New data recording system to better analysis</a>
+                                            <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+                                        </div>
+                                    
+                                </div>
+                                <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                                    <div class="post-image">
+                                        <div>
+                                            <img src="{% static 'img/co.jpg' %}" class="img" alt="blog1">
+                                        </div>
+                                            
+                                            <div class="post-info flex-row">
+                                                <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                                <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                                <span><i>5 comments</i></span>
+                                            </div>
+                                    </div>
+                                            
+                                            <div class="post-title">
+                                                <a href="#">New data recording system to better analysis</a>
+                                                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                                <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+                                            </div>
+                                        
+                                    </div>
+   
+                                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                                            <div class="post-image">
+                                                <div>
+                                                    <img src="{% static 'img/gb.jpg' %}" class="img" alt="blog1">
+                                                </div>
+                                                    
+                                                    <div class="post-info flex-row">
+                                                        <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                                        <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                                        <span><i>5 comments</i></span>
+                                                    </div>
+                                            </div>
+                                                    
+                                                    <div class="post-title">
+                                                        <a href="#">New data recording system to better analysis</a>
+                                                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                                        <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+                                                    </div>
+                                                
+                                            </div>
+                                            <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                                                <div class="post-image">
+                                                    <div>
+                                                        <img src="{% static 'img/mb.jpg' %}" class="img" alt="blog1">
+                                                    </div>
+                                                        
+                                                        <div class="post-info flex-row">
+                                                            <span><i class="fas fa-user text-gray">&nbsp;&nbsp; Admin</i></span>
+                                                            <span>&nbsp;&nbsp;<i class="fas fa-calendar-alt text-gray">&nbsp;&nbsp; January 15</i></span>
+                                                            <span><i>5 comments</i></span>
+                                                        </div>
+                                                </div>
+                                                        
+                                                        <div class="post-title">
+                                                            <a href="#">New data recording system to better analysis</a>
+                                                            <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione et, vel, provident tempore cum molestias porro earum neque fuga blanditiis repellendus sit quasi reprehenderit, maiores cumque non ducimus fugit deleniti?</p>
+                                                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+                                                        </div>
+                                                    
+                                                </div>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>News Letter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tag</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Training</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">Programs</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">Technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">Travel</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">Lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">Software</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+           
+        </div>
+        
+    </section>
+</main>
+<!-- End of main site section-->
+
+
+{% endblock content %}
+
+<!--<footer class="footer">
+    <div class="container">
+    <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus delectus explicabo tempore odio fugiat possimus saepe sint repudiandae iusto!</p>
+    </div>
+    <div class="newsletter" data-aos="fade-right" data-aos-delay="300">
+        <h2>Newsletter</h2>
+        <p>Stay updated with our latest</p>
+        <div class="form-element">
+            <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+    <div class="instagram" data-aos="fade-right" data-aos-delay="400">
+        <h2>Instagram</h2>
+        <div class="flex-row">
+            <img src="{% static 'img/flower1.jpg' %}" alt="">
+            <img src="{% static 'img/flowers2.jpg' %}" alt="">
+            <img src="{% static 'img/coding1.jpg' %}" alt="">
+            <img src="{% static 'img/love.jpg' %}" alt="">
+        </div>-->
+       <!-- <div class="flex-row">
+            <img src="{% static 'img/city.jpg' %}" alt="">
+            <img src="{% static 'img/prog.jpg' %}" alt="">
+            <img src="{% static 'img/teaching.jpg' %}" alt="">
+            <img src="{% static 'img/girl.jpg' %}" alt="">
+        </div>-->
+   <!--- </div>
+    <div class="follow" data-aos="fade-right" data-aos-delay="500">
+        <h2>Follow Us</h2>
+        <p>Let us be social</p>
+        <div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </div>
+   
+</div>
+<div class="rights flex-row">
+    <h3 class="text-gray">
+        Copyright @2020 All right reserved | made by
+        <a href="www.nuelonline.com" target="black">NuelTech</a>
+    </h3>
+</div>
+<div class="move-up">
+    <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+</div>
+</footer>-->
+
+
+<!--Jquery library file-->
+<!--<script src="{% static 'jss/jquery3.5.1.min.js' %}"></script>-->
+
+<!--Owl Carousel js-->
+<!--<script src="{% static 'jss/owl.carousel.min.js' %}"></script>-->
+ <!--AOS js Animation-->
+ <!--<script src="{% static 'jss/aos.js' %}"></script>-->
+<!--Javascript file-->
+    <!--<script src="{% static 'jss/main.js' %}">
+
+    </script>
+</body>
+</html>-->

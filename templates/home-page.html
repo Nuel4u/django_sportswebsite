@@ -1,0 +1,149 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="{% static 'css/home.css' %} ">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="brand">
+                  
+                <img src="{% static 'img/logo1.png' %}" alt="not available">
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="nav-link-wrapper active-nav-link">
+
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About Us</a>
+                </div>
+                    <div class="nav-link-wrapper">
+                         <a href="#">Mission</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="#">Registration</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="#">Training</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/camera1.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/car.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/city.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/coding1.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/flower1.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(img/applelap.jpg)">
+
+                    </div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="{% static 'img/home.jpg' %}" alt="">
+                        </div>
+                        <div class="subtitle">
+                            I am a programmer, data scientist and mobile app developer. I have built a number of apps for different clients
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    const portfolio = document.querySelectorAll('portfolio-item-wrapper')
+    portfolio.forEach(portF =>{
+        portF.addEventListener('mouseover' ,() =>{
+           console.log(portF.childNodes[1].classList);
+            portF.childNodes[1].classList.add('img-darken');
+        })
+
+            portF.addEventListener('mouseout' ,() =>{
+                portF.childNodes[1].classList.remove('img-darken');
+            })
+            
+        })
+        
+    
+</script>
+</html>

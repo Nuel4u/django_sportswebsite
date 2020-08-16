@@ -1,0 +1,24 @@
+@font-face{
+    font-family: medium;
+    src: url('../font/RobotoSlab-Black.ttf');
+}
+@font-face{
+    font-family: Bold;
+    src: url('../font/RobotoSlab-Light.ttf');
+}
+@font-face{
+    font-family: Thin;
+    src: url('../font/RobotoSlab-Regular.ttf');
+}
+@font-face{
+    font-family: SemiBold;
+    src: url('../font/RobotoSlab-SemiBold.ttf');
+}
+@font-face{
+    font-family: Black;
+    src: url('../font/RobotoSlab-Black.ttf');
+}
+@font-face{
+    font-family: ExtraLight;
+    src: url('../font/RobotoSlab-ExtraLight.ttf');
+}
